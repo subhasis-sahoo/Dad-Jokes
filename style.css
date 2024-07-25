@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1a1d;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    /* min-width: 400px;
+    height: 150px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding-block: 20px;
+}
+
+.jokes-box{
+    margin: 16px;
+    min-width: 400px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.btn{
+    width: 8rem;
+    height: 2rem;
+    background-color: #f4f765;
+    border: 1px solid #1b1a1d;
+    border-radius: 20px;
+    cursor: pointer;
+}
